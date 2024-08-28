@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRSAC</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="project2.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <special-header></special-header>
+
+    <div class="container-fluid mt-4">
+        <div class="container no-padding">
+
+            <h4 class="inner-page-heading">MAPS</h4>
+
+            <div class="row no-padding">
+                <div class="col-md-12">
+                    <div class="dashboard_menu">
+                        <!-- Side Menu Bar -->
+                        <link rel="stylesheet" href="css/side_menu.css">
+                        <script src="js/side_menu.js"></script>
+                        <ul></ul>
+                    </div>
+
+                    <div class="dashboard_content">
+                        <!-- Form Section -->
+                        <div id="form_outer_main">
+                            <div class="container2">
+                                <div class="col-12">
+                                    <form method="post" id="view_flipbook" action="/MRSAC/flipbook/projects">
+                                        <input type="hidden" name="_csrfToken" value="hfyEVnoTZ7qOgCoTUli9M5uLCRsYp7m4Ob6fZvVI430bF8xp4pn/YNHa7qGS59i+PYZr6yzCr6ZvXqweFq5U+YF70xUPxBhDqbI/LHuS3YoBiK9Wli2HGC0nrguD/ckG4uzdk6uF7YYMvl2PH/PKww==">
+
+                                        <div class="form-inline">
+                                            <div class="form-group">
+                                                <select name="parent_category" id="parent_category" class="form-control">
+                                                    <option value="">--Projects Category--</option>
+                                                    <option value="22">MahaBHUMI</option>
+                                                    <option value="23">Asset Mapping / Facility Mapping</option>
+                                                    <option value="20">Application of Remote Sensing and GIS</option>
+                                                    <option value="26">Land Records</option>
+                                                    <option value="25">CM Flagship</option>
+                                                    <option value="27">UAV/LIDAR</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="submit" name="view_result" id="view_result" class="btn btn-primary" value="Search">
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <!-- Map Section -->
+                            <div class="clearfix"></div>
+
+                            <div id="category_name0" class="col-12 category-name">MahaBHUMI</div>
+
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6 mb-3">
+                                    <div class="map_div bg-white p-2">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img src="Imagees-project/srsac.jodhpur.png" alt="Nagpur Division Political Map">
+                                            </div>
+                                            <div class="col-8">
+                                                <p class="map_title_new">Nagpur Division Political Map</p>
+                                                <p class="map_content">Nagpur Division Political Map</p>
+                                            </div>
+                                        </div>
+                                        <a href="https://mrsac.gov.in/writereaddata/MRSAC/map/15636183835d32ec4f0d4e9nagpurpolitical_map.pdf" target="_blank" class="enlarge_map">Enlarge</a>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3 col-sm-6 mb-3">
+                                    <div class="map_div bg-white p-2">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img src="Imagees-project/srsac.jodhpur.png" alt="Nagpur Division Political Map">
+                                            </div>
+                                            <div class="col-8">
+                                                <p class="map_title_new">Nagpur Division Political Map</p>
+                                                <p class="map_content">Nagpur Division Political Map</p>
+                                            </div>
+                                        </div>
+                                        <a href="https://mrsac.gov.in/writereaddata/MRSAC/map/15636183835d32ec4f0d4e9nagpurpolitical_map.pdf" target="_blank" class="enlarge_map">Enlarge</a>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3 col-sm-6 mb-3">
+                                    <div class="map_div bg-white p-2">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img src="Imagees-project/srsac.jodhpur.png" alt="Washim District Political Map">
+                                            </div>
+                                            <div class="col-8">
+                                                <p class="map_title_new">Washim District Political Map</p>
+                                                <p class="map_content">Washim District Political Map</p>
+                                            </div>
+                                        </div>
+                                        <a href="https://mrsac.gov.in/writereaddata/MRSAC/map/15636245705d33047aad5abDist_Washim.pdf" target="_blank" class="enlarge_map">Enlarge</a>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3 col-sm-6 mb-3">
+                                    <div class="map_div bg-white p-2">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img src="Imagees-project/srsac.jodhpur.png" alt="Solapur District Political Map">
+                                            </div>
+                                            <div class="col-8">
+                                                <p class="map_title_new">Solapur District Political Map</p>
+                                                <p class="map_content">Solapur District Political Map</p>
+                                            </div>
+                                        </div>
+                                        <a href="https://mrsac.gov.in/writereaddata/MRSAC/map/15636259635d3309eb32840Dist_Solapur.pdf" target="_blank" class="enlarge_map">Enlarge</a>
+                                    </div>
+                                </div>
+
+                                <!-- Additional maps can follow the same structure as above -->
+
+                                <!-- Add more map sections here -->
+                            </div>
+                        </div>
+
+                        <!-- End of Map Section -->
+                        <link rel="stylesheet" href="css/projects.css">
+                        <script src="js/projects.js"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <special-footer></special-footer>
+        <script src="manager-header-footer.js"></script>
+    </div>
+</body>
+
+</html>
